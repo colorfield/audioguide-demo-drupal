@@ -1,0 +1,12 @@
+# Information about the demo files.
+# The $PATH$ token will be replaced by the audio_demo_content module path.
+entity_type: file
+bundle: file
+content:
+  file_1:
+    uuid: 04d1491b-1b72-4761-8800-39f5ecce5ce8
+    path: $PATH$/mp3/Hal_9000-Sorry_Dave.mp3
+  file_2:
+    uuid: 50cc8135-9aef-4e5e-866c-ceb426c17acf
+    path: $PATH$/mp3/Pulp_Fiction-Jimmy_s_Coffee.mp3
+    

@@ -1,0 +1,58 @@
+entity_type: node
+bundle: audio
+content:
+  node_1:
+    uuid: 7f249713-90a5-4dfb-9012-97f59dcabfe9
+    langcode: en
+    title: "2001: A Space Odyssey"
+    body:
+      value: "<p><em>HAL 9000</em> is a fictional character and the main antagonist in Arthur C. Clarke's Space Odyssey series. First appearing in 2001: A Space Odyssey, HAL (Heuristically programmed ALgorithmic computer) is a sentient computer (or artificial general intelligence) that controls the systems of the Discovery One spacecraft and interacts with the ship's astronaut crew.</p>"
+      format: full_html
+    field_id:
+      value: 1
+    field_mp3:
+      file_1:
+        entity_type: file
+        uuid: 04d1491b-1b72-4761-8800-39f5ecce5ce8
+
+  node_2:
+    uuid: 290597a3-abff-4323-a525-c99e519a3cd8
+    title: "Pulp Fiction"
+    langcode: en
+    body:
+      value: "<p><em>Pulp Fiction</em> is a 1994 American black comedy neo-noir crime film written and directed by Quentin Tarantino, from a story by Tarantino and Roger Avary.[4] Directed in a highly stylized manner, Pulp Fiction connects the intersecting storylines of Los Angeles mobsters, fringe players, small-time criminals, and a mysterious briefcase. The film's title refers to the pulp magazines and hardboiled crime novels popular during the mid-20th century, known for their graphic violence and punchy dialogue.</p>"
+      format: full_html
+    field_id:
+      value: 2
+    field_mp3:
+      file_1:
+        entity_type: file
+        uuid: 50cc8135-9aef-4e5e-866c-ceb426c17acf
+
+  node_3:
+      uuid: fe768749-612e-448f-8f18-60d20738d4fb
+      langcode: fr
+      title: "2001, l'Odyssée de l'espace"
+      body:
+        value: "<p><em>HAL 9000</em> (CARL 500 en version française) est un personnage de fiction, un supercalculateur doté d'intelligence artificielle. Gérant le vaisseau spatial Discovery One, le personnage apparait dans la saga des Odyssées de l'espace du romancier de science-fiction britannique Arthur C. Clarke, dont les deux premiers romans ont été adaptés au cinéma, d'abord dans 2001, l'Odyssée de l'espace de Stanley Kubrick (1968) et dans 2010 : L'Année du premier contact de Peter Hyams (1984).</p>"
+        format: full_html
+      field_id:
+        value: 1
+      field_mp3:
+        file_1:
+          entity_type: file
+          uuid: 04d1491b-1b72-4761-8800-39f5ecce5ce8
+
+  node_4:
+        uuid: 731feede-7611-4dc4-83eb-92f1aeac7c2e
+        langcode: fr
+        title: "Fiction pulpeuse"
+        body:
+          value: "<p><em>Pulp Fiction</em>, ou <em>Fiction pulpeuse</em> au Québec, est un film de gangsters américain réalisé par Quentin Tarantino et sorti en 1994. Le scénario est co-écrit par Tarantino et Roger Avary. Utilisant la technique de narration non linéaire, il entremêle plusieurs histoires ayant pour protagonistes des membres de la pègre de Los Angeles et se distingue par ses dialogues stylisés, son mélange de violence et d'humour et ses nombreuses références à la culture populaire. Sa distribution principale se compose notamment de John Travolta, dont la carrière a été relancée par ce film, Samuel L. Jackson, Bruce Willis et Uma Thurman.</p>"
+          format: full_html
+        field_id:
+          value: 2
+        field_mp3:
+          file_1:
+            entity_type: file
+            uuid: 04d1491b-1b72-4761-8800-39f5ecce5ce8

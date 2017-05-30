@@ -1,0 +1,17 @@
+uuid: e2a98a09-8a93-462d-a9bb-53fd6be55b95
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Audio
+type: audio
+description: 'Use <em>audio</em> for describing content that contains an audio file.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

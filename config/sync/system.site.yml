@@ -1,0 +1,14 @@
+uuid: 0c5965ed-85a6-49db-9c0e-c9f51143a59e
+name: Audioguide
+mail: me@example.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
