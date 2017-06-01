@@ -6,7 +6,7 @@ version: 8.x-1.0-dev
 dependencies:
   - demo_content
 demo_content:
-  # The article nodes depends on the mp3 files, so we import file first.
+  # The audio nodes depends on the mp3 files, so we import file first.
   - content/file.file.yml
 
   # Next import the audio nodes.
