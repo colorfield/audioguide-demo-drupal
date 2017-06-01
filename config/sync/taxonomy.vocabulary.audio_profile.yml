@@ -1,0 +1,9 @@
+uuid: 235a231e-22d7-4266-a1e2-c431e9ac2a58
+langcode: en
+status: true
+dependencies: {  }
+name: 'Audio profile'
+vid: audio_profile
+description: 'Use profiles to define Audioguide targets or routes.'
+hierarchy: 0
+weight: 0

@@ -14,6 +14,13 @@ content:
       file_1:
         entity_type: file
         uuid: 04d1491b-1b72-4761-8800-39f5ecce5ce8
+    field_audio_profile:
+      profile_1:
+        entity_type: taxonomy_term
+        uuid: ba2e01dc-dce6-4133-989d-b4d93d06d8e3
+      profile_2:
+        entity_type: taxonomy_term
+        uuid: 6f36451a-9f29-445a-ba55-32e5eea09125
 
   node_2:
     uuid: 290597a3-abff-4323-a525-c99e519a3cd8
@@ -28,6 +35,13 @@ content:
       file_1:
         entity_type: file
         uuid: 50cc8135-9aef-4e5e-866c-ceb426c17acf
+    field_audio_profile:
+      profile_1:
+        entity_type: taxonomy_term
+        uuid: ba2e01dc-dce6-4133-989d-b4d93d06d8e3
+      profile_2:
+        entity_type: taxonomy_term
+        uuid: 5e68bb6f-d91f-4ca1-980c-5a83d4812d68
 
   node_3:
       uuid: fe768749-612e-448f-8f18-60d20738d4fb
@@ -42,6 +56,13 @@ content:
         file_1:
           entity_type: file
           uuid: 04d1491b-1b72-4761-8800-39f5ecce5ce8
+      field_audio_profile:
+        profile_1:
+          entity_type: taxonomy_term
+          uuid: ba2e01dc-dce6-4133-989d-b4d93d06d8e3
+        profile_2:
+          entity_type: taxonomy_term
+          uuid: 6f36451a-9f29-445a-ba55-32e5eea09125
 
   node_4:
         uuid: 731feede-7611-4dc4-83eb-92f1aeac7c2e
@@ -56,3 +77,10 @@ content:
           file_1:
             entity_type: file
             uuid: 04d1491b-1b72-4761-8800-39f5ecce5ce8
+        field_audio_profile:
+            profile_1:
+              entity_type: taxonomy_term
+              uuid: ba2e01dc-dce6-4133-989d-b4d93d06d8e3
+            profile_2:
+              entity_type: taxonomy_term
+              uuid: 5e68bb6f-d91f-4ca1-980c-5a83d4812d68

@@ -1,0 +1,11 @@
+uuid: 7a96edd5-18e5-4a02-a4ba-e24f11bdc0fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.audio_profile
+id: taxonomy_term.audio_profile
+target_entity_type_id: taxonomy_term
+target_bundle: audio_profile
+default_langcode: site_default
+language_alterable: false

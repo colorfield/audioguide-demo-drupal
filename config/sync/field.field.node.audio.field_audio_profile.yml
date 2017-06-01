@@ -1,0 +1,28 @@
+uuid: b4be4520-b720-4476-8600-765d629fa34b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_audio_profile
+    - node.type.audio
+    - taxonomy.vocabulary.audio_profile
+id: node.audio.field_audio_profile
+field_name: field_audio_profile
+entity_type: node
+bundle: audio
+label: Profile
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      audio_profile: audio_profile
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
