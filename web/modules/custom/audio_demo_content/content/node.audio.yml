@@ -14,6 +14,10 @@ content:
       file_1:
         entity_type: file
         uuid: 04d1491b-1b72-4761-8800-39f5ecce5ce8
+    field_image:
+      file_1:
+        entity_type: file
+        uuid: f0d895ab-1089-4d80-9f69-df37eb0376b5
     field_audio_profile:
       profile_1:
         entity_type: taxonomy_term
@@ -35,6 +39,10 @@ content:
       file_1:
         entity_type: file
         uuid: 50cc8135-9aef-4e5e-866c-ceb426c17acf
+    field_image:
+      file_1:
+        entity_type: file
+        uuid: 1aea0473-d41a-414c-90a9-c88006b5f63b
     field_audio_profile:
       profile_1:
         entity_type: taxonomy_term
@@ -56,6 +64,10 @@ content:
         file_1:
           entity_type: file
           uuid: 04d1491b-1b72-4761-8800-39f5ecce5ce8
+      field_image:
+        file_1:
+          entity_type: file
+          uuid: 8002b274-f9e5-49c7-a308-1f2088ae76a1
       field_audio_profile:
         profile_1:
           entity_type: taxonomy_term
@@ -77,6 +89,10 @@ content:
           file_1:
             entity_type: file
             uuid: 04d1491b-1b72-4761-8800-39f5ecce5ce8
+        field_image:
+          file_1:
+            entity_type: file
+            uuid: 515622f8-da57-4fa9-b330-3ac249dda66b
         field_audio_profile:
             profile_1:
               entity_type: taxonomy_term
