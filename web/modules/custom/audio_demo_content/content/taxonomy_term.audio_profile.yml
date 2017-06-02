@@ -4,14 +4,23 @@ content:
   term_1:
     uuid: ba2e01dc-dce6-4133-989d-b4d93d06d8e3
     name: 'General'
+    description:
+      value: "<p>All purpose.</p>"
+      format: basic_html
     weight: 10
 
   term_2:
     uuid: 6f36451a-9f29-445a-ba55-32e5eea09125
     name: 'Youth'
+    description:
+      value: "<p>For children and young people, from 7 to 77 years old.</p>"
+      format: basic_html
     weight: 20
 
   term_3:
     uuid: 5e68bb6f-d91f-4ca1-980c-5a83d4812d68
     name: 'Blind'
+    description:
+      value: "<p>Adapted for blind and visually impaired people.</p>"
+      format: basic_html
     weight: 30
