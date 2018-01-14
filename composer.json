@@ -44,6 +44,7 @@
         "drupal/cors": "^1.0",
         "drupal/demo_content": "1.x-dev",
         "drupal/jsonapi": "^1.7",
+        "drupal/paragraphs": "^1.2",
         "drush/drush": "~8.0",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
