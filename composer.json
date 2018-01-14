@@ -1,6 +1,6 @@
 {
-    "name": "drupal-composer/drupal-project",
-    "description": "Project template for Drupal 8 projects with composer",
+    "name": "pfrenssen/drupal-project",
+    "description": "Project template for Drupal 8 projects with Composer, Phing and Behat",
     "type": "project",
     "license": "GPL-2.0+",
     "authors": [
@@ -13,29 +13,55 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "pfrenssen/phpcs-pre-push",
+                "version": "1.0",
+                "type": "git-hook",
+                "source": {
+                    "url": "https://gist.github.com/498fc52fea3f965f6640.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        },
+        {
+            "type": "vcs",
+            "url": "https://git.drupal.org/project/phingdrushtask.git"
         }
     ],
     "require": {
+        "php": ">=5.5.9",
+        "composer/composer": "~1.0",
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6",
         "drupal-composer/drupal-scaffold": "^2.2",
-        "drupal/config_installer": "^1.4",
-        "drupal/console": "~1.0",
+        "drupal/config_installer": "^1.5",
+        "drupal/console": "^1.0.1",
         "drupal/core": "~8.0",
         "drupal/cors": "^1.0",
         "drupal/demo_content": "1.x-dev",
-        "drupal/devel": "^1.0@RC",
-        "drupal/jsonapi": "^1.0",
+        "drupal/jsonapi": "^1.7",
         "drush/drush": "~8.0",
-        "webflo/drupal-finder": "^0.3.0",
+        "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
     },
     "require-dev": {
         "behat/mink": "~1.7",
         "behat/mink-goutte-driver": "~1.2",
-        "jcalderonzumba/gastonjs": "~1.0.2",
+        "behat/mink-selenium2-driver": "dev-master#721cbbaf37f71434f6acb604dc3a17a6a9be0c4c",
+        "drupal/coder": "~8.2.7",
+        "drupal/config_update": "1.*@dev",
+        "drupal/devel": "1.*@dev",
+        "drupal/drupal-extension": "~3.0",
+        "drupal/phingdrushtask": "dev-7.x-2.x",
+        "jcalderonzumba/gastonjs": "^1.1@dev",
         "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
-        "mikey179/vfsstream": "~1.2",
+        "mikey179/vfsStream": "~1.2",
+        "pfrenssen/phpcs-pre-push": "1.0",
+        "phing/phing": "~2.10",
         "phpunit/phpunit": ">=4.8.28 <5",
         "symfony/css-selector": "~2.8"
     },
@@ -45,9 +71,16 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-      "sort-packages": true
+        "sort-packages": true,
+        "platform": {
+            "php": "5.6.31"
+        }
     },
     "autoload": {
+        "psr-4": {
+            "Drupal\\DrupalProject\\": "tests/src",
+            "DrupalProject\\": "src"
+        },
         "classmap": [
             "scripts/composer/ScriptHandler.php"
         ]
@@ -75,11 +108,6 @@
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"]
-        },
-        "patches": {
-            "drupal/core": {
-                "Shipping a profile with multiple languages without locale module": "https://www.drupal.org/files/issues/drupal-2413191-21.patch"
-            }
         }
     }
 }
