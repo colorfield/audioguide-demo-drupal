@@ -1,5 +1,5 @@
 entity_type: node
-bundle: audio
+bundle: stop
 content:
   node_1:
     uuid: 7f249713-90a5-4dfb-9012-97f59dcabfe9
